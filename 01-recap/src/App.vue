@@ -1,4 +1,5 @@
 <script setup>
+import Computed from "./components/Computed.vue";
 import Image from "./components/Image.vue";
 import { ref } from "vue";
 
@@ -27,6 +28,10 @@ const recettes = ["Couscous", "Fondue", "Salade Cesar", "Tomates cerises"];
         Afficher / Cacher la liste
       </button>
     </div>
+  </div>
+
+  <div>
+    <Computed></Computed>
   </div>
 </template>
 
