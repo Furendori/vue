@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
+import Counter from "./components/Counter.vue"
 
 let name = ref('')
 let age = ref(0)
@@ -38,6 +39,8 @@ const generate = () => {
   <div v-else class="infos-error">
     <p>Veuillez entrer un nom et un age valide</p>
   </div>
+
+  <Counter start = 3></Counter>
 
 </template>
 

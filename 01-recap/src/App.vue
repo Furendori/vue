@@ -29,10 +29,6 @@ const recettes = ["Couscous", "Fondue", "Salade Cesar", "Tomates cerises"];
       </button>
     </div>
   </div>
-
-  <div>
-    <Computed></Computed>
-  </div>
 </template>
 
 <style scoped>
